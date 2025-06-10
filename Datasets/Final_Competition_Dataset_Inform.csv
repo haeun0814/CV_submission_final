@@ -1,0 +1,6 @@
+﻿Dataset Name,Available Splits,Samples per Split,Image File Extension,"Image Shape (H,W)",Pixel Range,Image Data Type,Mask File Extension,"Mask Shape (H,W)",Number of Samples,Inchannels,Number of Classes,Unique Classes,Remark,Transform,Augmentation,Evaluation
+VOC,"['train', 'val', 'test']","[1747, 583, 583]",{'.png': 2913},"{(256, 256, 3): 2913}",0 - 255,uint8,{'.npy': 2913},"{(256, 256, 1): 2913}",2913,3,21,"[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]",,,,
+ETIS,"['train', 'val', 'test']","[118, 39, 39]",{'.png': 196},"{(256, 256, 3): 196}",0 - 255,uint8,{'.npy': 196},"{(256, 256, 1): 196}",196,3,2,"[0, 1]",,,,
+CVPPP,"['train', 'val', 'test']","[486, 162, 162]",{'.png': 810},"{(256, 256, 3): 810}",0 - 255,uint8,{'.npy': 810},"{(256, 256, 1): 810}",810,3,2,"[0, 1]",,,,
+CFD,"['train', 'val', 'test']","[70, 24, 24]",{'.png': 118},"{(256, 256, 3): 118}",0 - 247,uint8,{'.npy': 118},"{(256, 256, 1): 118}",118,3,2,"[0, 1]",,,,
+CarDD,"['train', 'val', 'test']","[310, 104, 104]",{'.png': 518},"{(256, 256, 3): 518}",0 - 255,uint8,{'.npy': 518},"{(256, 256, 1): 518}",518,3,2,"[0, 1]",,,,
